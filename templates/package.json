@@ -1,0 +1,20 @@
+{
+  "name": "ifc-toolkit",
+  "version": "1.0.0",
+  "description": "IFC ToolKit",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "watch": "rollup -w -c ./rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.140.2",
+    "web-ifc-three": "^0.0.115"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.73.0"
+  }
+}
